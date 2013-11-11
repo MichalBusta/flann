@@ -328,6 +328,8 @@ private:
     			if (Archive::is_loading::value) {
     				point = obj->points_[divfeat];
     			}
+    			child1 = NULL;
+    			child2 = NULL;
     		}
 
     		if (!leaf_node) {
